@@ -1,0 +1,38 @@
+/*
+* @Author: saurabh
+* @Date:   2018-10-28 04:27:49
+* @Last Modified by:   Saurabh Agarwal
+* @Last Modified time: 2018-10-28 06:07:37
+*/
+
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:16px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#656565;
+}
+
+nav.design_navbar{
+	background-color: #3498DB;
+}
+
+
+.nav-link{
+	color: #AED6F1
+}
+
+
+li.logo_active{
+	background-color: #21618C;
+	color: white;
+}
+
+
+li.active{
+	background-color: #2E86C1;
+}
+
+a.active{
+	color: white;
+}
