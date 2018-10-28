@@ -2,7 +2,7 @@
 * @Author: saurabh
 * @Date:   2018-10-28 04:27:49
 * @Last Modified by:   Saurabh Agarwal
-* @Last Modified time: 2018-10-28 06:52:40
+* @Last Modified time: 2018-10-28 08:22:17
 */
 
 body {
@@ -18,19 +18,17 @@ nav.design_navbar{
 }
 
 
-.nav-link{
-	color: #AED6F1
-}
-
-
 li.logo_active{
-	background-color: #21618C;
-	color: white;
+	color: #3498DB;
 }
 
+#logo_text{
+	color: #2E86C1;
+}
 
-li.active{
-	background-color: #2E86C1;
+.krssg_logo{
+	height: 60px;
+	width: 60px;
 }
 
 a.active{
@@ -51,4 +49,9 @@ a:hover{
 
 .quick_links:hover{
 	color: #656565
+}
+
+.image_slider{
+	position: relative;
+	/*height: 400px;*/
 }
