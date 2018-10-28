@@ -2,7 +2,7 @@
 * @Author: saurabh
 * @Date:   2018-10-28 04:27:49
 * @Last Modified by:   Saurabh Agarwal
-* @Last Modified time: 2018-10-28 06:07:37
+* @Last Modified time: 2018-10-28 06:52:40
 */
 
 body {
@@ -35,4 +35,20 @@ li.active{
 
 a.active{
 	color: white;
+}
+
+a:hover{
+	color: white
+}
+
+.change_strike_colour{
+	border-color: #3498DB;
+}
+
+.quick_links{
+	color: #656565
+}
+
+.quick_links:hover{
+	color: #656565
 }
