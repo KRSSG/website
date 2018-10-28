@@ -2,7 +2,7 @@
 * @Author: saurabh
 * @Date:   2018-10-28 04:27:49
 * @Last Modified by:   Saurabh Agarwal
-* @Last Modified time: 2018-10-28 08:22:17
+* @Last Modified time: 2018-10-28 09:52:41
 */
 
 body {
@@ -54,4 +54,10 @@ a:hover{
 .image_slider{
 	position: relative;
 	/*height: 400px;*/
+}
+
+.visited_country{
+	width: 242px;
+	height: 200px;
+	position: relative;
 }
