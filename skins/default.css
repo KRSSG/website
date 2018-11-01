@@ -2,7 +2,7 @@
 * @Author: saurabh
 * @Date:   2018-10-28 04:27:49
 * @Last Modified by:   Saurabh Agarwal
-* @Last Modified time: 2018-10-28 20:48:38
+* @Last Modified time: 2018-11-02 00:43:46
 */
 
 body {
@@ -77,4 +77,16 @@ a:hover{
 
 .research_thumbnail:hover .research_sign{
 	color: #656565;
+}
+
+.design_profile_img{
+	max-width: 100%;
+	max-height: 250px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.design_profile_box:hover{
+	background-color: #F2F3F4;
 }
