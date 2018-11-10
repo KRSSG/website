@@ -12,7 +12,7 @@
 
 	    <link rel="icon" href="https://avatars1.githubusercontent.com/u/11938153?v=3&s=200">
 
-		<title>Project</title>
+		<title>Publications</title>
 	</head>
 	<body>
 
@@ -30,11 +30,11 @@
 					<li class="nav-item">
 						<a class="nav-link font-weight-bold" href="./index.html">Home </a>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link font-weight-bold active" href="./project.html">Project <span class="sr-only">(current)</span></a>
-					</li>
 					<li class="nav-item">
-						<a class="nav-link font-weight-bold" href="./publications.html">Publications</a>
+						<a class="nav-link font-weight-bold" href="./project.html">Project </a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link font-weight-bold active" href="#">Publications <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link font-weight-bold" href="http://event.krssg.in/index.php" target="__blank">Code-O-Soccer</a>
@@ -53,107 +53,47 @@
 		<!-- Navbar End -->
 
 
-		<h3 class="text-center">Research Areas</h3>
-		<div class="row mx-0">
-			<hr class="teal accent-3 mb-2 mt-0 d-inline-block mx-auto change_strike_colour" style="width: 10vw;">
-		</div>
-		<div class="row mx-0 my-5">
-			<div class="col-md-3 research_thumbnail">
-				<div class="row my-3">
-					<i class="fa fa-eye fa-5x mx-auto research_sign"></i>
-				</div>
-				<h5 class="text-center font-weight-bold">Computer Vision</h5>
-				<div class="row mx-5">
-					<p class="text-justify">
-						Recognise objects, ball and other robots, in the environment using Image processing algorithms and Machine Learning methods.
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3 research_thumbnail">
-				<div class="row my-3">
-					<i class="fa fa-map-signs fa-5x mx-auto research_sign"></i>
-				</div>
-				<h5 class="text-center font-weight-bold">Multi-agent Motion Planning</h5>
-				<div class="row mx-5">
-					<p class="text-justify">
-						Each robot needs to plan a path toward destination in real-time without colliding with other robots and hindering path of other team-mates.
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3 research_thumbnail">
-				<div class="row my-3">
-					<i class="fa fa-gamepad fa-5x mx-auto research_sign"></i>
-				</div>
-				<h5 class="text-center font-weight-bold">Behavior Control</h5>
-				<div class="row mx-5">
-					<p class="text-justify">
-						To win the game each robot needs intelligent decisions which can be made using predetermined rules or machine learning methods.
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3 research_thumbnail">
-				<div class="row my-3">
-					<i class="fa fa-compass fa-5x mx-auto research_sign"></i>
-				</div>
-				<h5 class="text-center font-weight-bold">Localization</h5>
-				<div class="row mx-5">
-					<p class="text-justify">
-						Obtain exact position and velocities of objects, ball and all robots, in the field by proper modelling of environment.
-					</p>
-				</div>
-			</div>
-		</div>
-
+		<!-- Paper listing start -->
 		<div class="container">
-			<h3 class="text-center font-weight-bold text-uppercase">Robocup</h3>
-			<div class="row mx-0">
-				<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto change_strike_colour" style="width: 10vw;">
-			</div>
-			<p class="text-center">
-				"By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying<br> with the official rules of FIFA, against the winner of the most recent World Cup."
-			</p>
-			<div class="row">
-				<div class="col-md-5">
-					<img src="./images/robocup.png" class="img-fluid">
-				</div>
-				<div class="col-md-7">
-					<h4 class="text-center">Small Size League</h4>
-					<p class="text-justify">
-						This project was a result of the success of the RoboCup India Challenge in the campus in August 2009 and led to the formal existence of KRSSG. The aim of this project is to develop a team of autonomous robots in accordance with the rules of International RoboCup Small Sized League. Some of the notable highlights of this project are the development of a Solenoid Kicker that shoots a golf ball at a speed greater than 10m/s and the making of our own simulator integrated with a Physics engine to study the dynamics of multi-robot control!
-					</p>
-					<h4 class="text-center">Humanoid Simulation</h4>
-					<p class="text-justify">
-						The RoboCup 3D Simulated Soccer League allows teams to control virtual humanoid robots to compete against one another in a simulation of the rules and physics of a game of football. KRSSG has been involved in developing the strategies and control for this league.
-					</p>
-				</div>
+			<div class="row mx-auto my-3">
+				<a href="https://arxiv.org/abs/1611.01851" target="__blank" class="paper_heading font-weight-bold">Bayesian Optimisation with Prior Reuse for Motion Planning in Robot Soccer</a>
+				<p>
+				<span class="font-weight-bold">Authors:</span>
+				<span class="font-italic font-weight-light">Abhinav Agarwalla, Arnav Kumar Jain, KV Manohar, Arpit Saxena, Jayanta Mukhopadhyay</span>
+				<br>
+				<span class="font-weight-bold">Abstract:</span>
+				 We integrate learning and motion planning for soccer playing differential drive robots using Bayesian optimisation. Trajectories generated using end-slope cubic Bezier splines are first optimised globally through Bayesian optimisation for a set of candidate points with obstacles. The optimised trajectories along with robot and obstacle positions and velocities are stored in a database. The closest planning situation is identified from the database using k-Nearest Neighbour approach. It is further optimised online through reuse of prior information from previously optimised trajectory. Our approach reduces computation time of trajectory optimisation considerably. Velocity profiling generates velocities consistent with robot kinodynamoic constraints, and avoids collision and slipping. Extensive testing is done on developed simulator, as well as on physical differential drive robots. Our method shows marked improvements in mitigating tracking error, and reducing traversal and computational time over competing techniques under the constraints of performing tasks in real time.</p>
 			</div>
 
 			
-			<h3 class="text-center font-weight-bold text-uppercase">FIRA</h3>
-			<div class="row">
-			<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto change_strike_colour" style="width: 10vw;">
+			<hr class="teal accent-3 mb-0 mt-0 d-inline-block mx-auto " style="width: 100%;">
+
+
+			<div class="row mx-auto">
+				<a href="./publications/KgpKubs_TDP_2018.pdf" target="__blank" class="paper_heading font-weight-bold">KgpKubs Team Description Paper, Robocup SSL 2018</a>
+				<p><span class="font-weight-bold">Abstract:</span> This paper describes the mechanical, electronic and software designs developed by Kharagpur RoboSoccer Students’ Group (KRSSG) team to compete in RoboCup 2018. All designs are in agreement with the rules and regulations of Small Size League 2018. Software Architecture implemented over Robot Operating System(ROS), trajectory planning and velocity profiling, dribbler/kicker design and embedded circuits over the last year have been listed.</p>
 			</div>
-			<p class="text-center">
-				The Federation of International Robot-soccer Association (or FIRA, in short) was founded in June 1997 with a basic goal of taking the spirit of <br> science and technology of robotics to the laymen and the younger generation, through the game of robot soccer.
-			</p>
-			<div class="row">
-				<div class="col-md-7">
-					<h4 class="text-center">Mirosot</h4>
-					<p class="text-justify">
-						The aim of the project is to develop a team of autonomous robots in accordance with the rules of RoboCup Small Sized League and the Mirosot league of the World Championship conducted by Federation of International Robot-soccer Association (FIRA). The origin of this project dates back to August 2010, when the FIRA World Championship was held in Bangalore. We achieved the distinction of being the only Indian team to participate in the 5:5 Mirosot league of the event. With this experience, we aim to take this project ahead with plans of participation in the next edition of the Championship.
-					</p>
-					<h4 class="text-center">Simurosot</h4>
-					<p class="text-justify">
-						The FIRA Simurosot League is a simulation of small (7.5cm*7.5cm*7.5cm) robots playing football, which is governed by real world physics and rules. KRSSG began development for this league way back in 2010, when it was a B. Tech Project, and has come a long way since then developmentally with new strategies, control algorithms and playsets, ultimately placing 10th at the FIRA Roboworld Cup 2015. 
-					</p>
-				</div>
-				<div class="col-md-5">
-					<img src="./images/fira.png" class="img-fluid">
-				</div>
+			
+			<hr class="teal accent-3 mb-0 mt-0 d-inline-block mx-auto " style="width: 100%;">
+
+
+			<div class="row mx-auto">
+				<a href="https://archive.robocup.info/Soccer/Simulation/3D/TDPs/RoboCup/2018/KgpKubs_SS3D_RC2018_TDP.pdf" target="__blank" class="paper_heading font-weight-bold">KgpKubs Team Description Paper, Robocup 3D Simulation League 2018</a>
+				<p><span class="font-weight-bold">Abstract:</span> This paper reports the recent developments by the Kgpkubs team. It describes the work on passing, formation strategies, heuristic role assignment and other tactics used to improve the game play.</p>
+			</div>
+			
+			<hr class="teal accent-3 mb-0 mt-0 d-inline-block mx-auto " style="width: 100%;">
+
+			<div class="row mx-auto">
+				<a href="./publications/KgpKubs_TDP_2018.pdf" target="__blank" class="paper_heading font-weight-bold">KgpKubs Team Description Paper, Robocup SSL 2017</a>
+				<p><span class="font-weight-bold">Abstract:</span> This paper describes the mechanical, electronic and software designs developed by Kharagpur RoboSoccer Students’ Group (KRSSG) team to compete in RoboCup 2017. All designs are in agreement with the rules and regulations of Small Size League 2017. Software Architecture implemented over Robot Operating System(ROS), trajectory planning and velocity profiling, dribbler/kicker design and embedded circuits over the last year have been listed.</p>
 			</div>
 
 
 		</div>
+
+
+		<!-- Paper listing end -->
 
 		<!-- Footer Start-->
 		<footer class="page-footer font-small blue-grey lighten-5 design_footer" >
