@@ -2,7 +2,7 @@
 * @Author: saurabh
 * @Date:   2018-10-28 04:27:49
 * @Last Modified by:   Saurabh Agarwal
-* @Last Modified time: 2018-11-10 13:05:16
+* @Last Modified time: 2018-11-25 11:05:29
 */
 
 body {
@@ -52,9 +52,15 @@ a:hover{
 	color: #656565
 }
 
-.image_slider{
-	position: relative;
-	/*height: 400px;*/
+.image_container{
+	width: 1140px;
+	height: 400px;
+}
+
+.slider_image{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .visited_country{
